@@ -27,13 +27,13 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Installing Node
-        uses: actions/setup-node@v2.4.2
+        uses: actions/setup-node@v1.4.2
         with:
           version: 12 
 
       # Runs a set of commands using the runners shell
       - name: Installing yarn
-        uses: Borales/actions-yarn@v1.1.0
+        uses: Borales/actions-yarn@v2.1.0
         with:
           cmd: install 
           
