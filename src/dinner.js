@@ -6,6 +6,7 @@ function Dinner(props){
             <h1>hello everyone{props.dishname}</h1>
     <h1>hello everyone{props.sweetdish}</h1>
     <h1>hello everyone{props.dishname}</h1>
+    
         </div>
     )
 }
