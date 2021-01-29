@@ -12,9 +12,9 @@ function App() {
 <button onClick={()=> setcount(count+1)}>Updated</button>
 <button onClick={()=> setMorning(!isMorning)}>chang_day</button>
 <ul>
-  <li><a href="Home"></a>Home</li>
-  <li><a href="About"></a>About</li>
-  <li><a href="contact"></a>contact</li>
+  <li>Home</li>
+  <li>About</li>
+  <li>contact</li>
 </ul>
 </div>
   );
