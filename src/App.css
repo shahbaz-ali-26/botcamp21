@@ -1,7 +1,22 @@
 .box{
   height: 500px;
   background-color: gray;
+  
 }
 .daylight{
   background-color: yellow;
   }
+ul{
+  list-style-type: none;
+  text-align: right;
+  
+}
+ul li{
+  display: inline-block;
+  padding: 8px 25px;
+  
+}
+ul li a{
+  color: thistle;
+  padding: 10px;
+}

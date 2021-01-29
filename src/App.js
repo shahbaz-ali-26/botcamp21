@@ -11,6 +11,11 @@ function App() {
 <br/>
 <button onClick={()=> setcount(count+1)}>Updated</button>
 <button onClick={()=> setMorning(!isMorning)}>chang_day</button>
+<ul>
+  <li><a href="Home"></a>Home</li>
+  <li><a href="About"></a>About</li>
+  <li><a href="contact"></a>contact</li>
+</ul>
 </div>
   );
 }
