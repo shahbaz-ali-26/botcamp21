@@ -36,4 +36,4 @@ jobs:
       run: npm install -g surge
     
     - name: deploying on surge
-      run: surge ./build http://botcamp21.surge.sh/ --token ${{secrets.SHAHBAZ}}
+      run: surge ./build http://panacloud_21.surge.sh/ --token ${{secrets.SHAHBAZ}}
